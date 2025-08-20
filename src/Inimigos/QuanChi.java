@@ -1,7 +1,7 @@
 package Inimigos;
 
 public class QuanChi {
-    private String nome;
+    String nome;
     private int idade;
     private int vida;
 
@@ -31,4 +31,5 @@ public class QuanChi {
     public void exibir(){
         System.out.println(nome + " tem " + idade + " anos, e sua vida é de: " +vida);
     }
+
 }

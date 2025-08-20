@@ -1,7 +1,7 @@
 package Inimigos;
 
 public class Shinnok {
-    private String nome;
+    String nome;
     private int idade;
     private int vida;
 
@@ -31,4 +31,6 @@ public class Shinnok {
     public void exibir(){
         System.out.println(nome + " tem " + idade + " anos, e sua vida é de: " +vida);
     }
+
+
 }

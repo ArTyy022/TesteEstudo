@@ -1,7 +1,7 @@
 package Inimigos;
 
-public class ShangTsung extends inimigosPrincipal{
-    String nome;
+public class inimigosPrincipal {
+   String nome;
     private int idade;
     private int vida;
 
@@ -31,6 +31,6 @@ public class ShangTsung extends inimigosPrincipal{
     public void exibir(){
         System.out.println(nome + " tem " + idade + " anos, e sua vida é de: " +vida);
     }
-
-
 }
+
+
